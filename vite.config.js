@@ -16,5 +16,8 @@ export default defineConfig({
       '@fullcalendar/interaction',
       '@fullcalendar/core'
     ]
-  }
+  },
+  build: {
+    chunkSizeWarningLimit: 1600, 
+  },
 })
