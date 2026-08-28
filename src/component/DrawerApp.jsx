@@ -135,7 +135,7 @@ const DrawerApp = ({ open, handleDrawerClose }) => {
         </IconButton>
       </DrawerHeader>
       <Divider />
-      <Avatar alt="Remy Sharp" src="../src/imgs/farah.jpg" sx={{ position: 'relative', left: '50%', transform: 'translateX(-50%)', margin: "20px 0px", width: open ? '100px' : '45px', height: open ? '100px' : '45px', border: '2px solid #ccc' }} />
+      <Avatar alt="Remy Sharp" src="/farah.jpg" sx={{ position: 'relative', left: '50%', transform: 'translateX(-50%)', margin: "20px 0px", width: open ? '100px' : '45px', height: open ? '100px' : '45px', border: '2px solid #ccc' }} />
       {open ? <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '5px' }}>Farah Hamdan <span style={{ color: '#1976d2' }}>Admin</span></div> : ''}
       <Divider />
       <List>
