@@ -78,7 +78,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 );
 const LogoImg = () => (
   <img
-    src="./farah.jpg"
+    src="/farah.JPG"
     alt="Logo"
     style={{ width: '7%', height: '7%', borderRadius: '50%' }}
   />
