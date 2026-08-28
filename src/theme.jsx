@@ -1,7 +1,7 @@
 export const darkTheme = createTheme = (mode) => ({
   palette: {
     mode,
-    ...(mode === "light"
+    ...(mode === "dark"
         ? {
 
         }
