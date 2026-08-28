@@ -1,0 +1,44 @@
+b {
+  margin-right: 3px;
+}
+.demo-app {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.demo-app-sidebar {
+  width: 300px;
+  line-height: 1.5;
+  border-right: 1px solid #d3e2e8;
+}
+.demo-app-sidebar-section {
+  padding: 2em;
+}
+.demo-app-main {
+  flex-grow: 1;
+  padding: 3em;
+}
+.fc {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.fc .fc-button-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+}
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+.fc .fc-button-primary:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+.demo-app-main {
+  padding: 0;
+}
+.css-1sazv7p-MuiStack-root>:not(style):not(style) {
+  margin: 15px 0px !important;
+}

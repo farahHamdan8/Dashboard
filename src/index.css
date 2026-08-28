@@ -1,0 +1,59 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: "Inter", sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+.boxme {
+  flex: 1;
+}
+
+.inlineD {
+  display: inline;
+}
+.stats-number, .dashboard-numbers {
+  font-variant-numeric: tabular-nums;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+.css-96uuyl {
+  width: auto !important;
+}
+
+@media (max-width: 600px) {
+  .css-1umw9bq-MuiSvgIcon-root {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .css-1wk41ds-MuiDrawer-docked .MuiDrawer-paper {
+    margin-left: -60px !important;
+  }
+
+  .MuiDrawer-anchorLeft {
+    width: 0 !important;
+  }
+
+  .css-1c6o20e-MuiDrawer-docked .MuiDrawer-paper {
+    margin-left: -60px;
+  }
+}
