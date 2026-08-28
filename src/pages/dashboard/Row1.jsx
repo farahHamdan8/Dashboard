@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack } from '@mui/material';
 import { SendOutlined } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import PointOfSaleIcon from "@mui/icons-material/PointofSale";
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import TrafficIcon from '@mui/icons-material/Traffic';
 import Paper from '@mui/material/Paper';
@@ -21,7 +21,7 @@ const Row1 = () => {
             <Papers icon={<EmailIcon sx={{ fontSize: '27px', color: theme.palette.secondary.main }} />}
                 title={'12,361'} subTitle={'Emails Sent'} data={data1} increase={'14'} scheme={"category10"} />
 
-            <Papers icon={<PointofSaleIcon sx={{ fontSize: '27px', color: theme.palette.secondary.main }} />}
+            <Papers icon={<PointOfSaleIcon sx={{ fontSize: '27px', color: theme.palette.secondary.main }} />}
                 title={'431,225'} subTitle={'Sales Obtained'} data={data2} increase={'21'} scheme={"accent"} />
 
             <Papers icon={<PersonAddIcon sx={{ fontSize: '30px', color: theme.palette.secondary.main }} />}
