@@ -45,7 +45,7 @@ body {
 
 @media (max-width: 600px) {
   .css-1wk41ds-MuiDrawer-docked .MuiDrawer-paper {
-    margin-left: -60px !important;
+    /* margin-left: -60px !important; */
   }
 
   .MuiDrawer-anchorLeft {
@@ -53,6 +53,6 @@ body {
   }
 
   .css-1c6o20e-MuiDrawer-docked .MuiDrawer-paper {
-    margin-left: -60px;
+    /* margin-left: -60px; */
   }
 }

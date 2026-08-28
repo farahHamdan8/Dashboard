@@ -103,13 +103,12 @@ const Array3 = [{ text: 'Bar Chart', icon: <BarChartOutlinedIcon />, path: '/Bar
 
 // @ts-ignore
 const DrawerApp = ({ open, handleDrawerClose }) => {
-  let location = useLocation(); 
+  let location = useLocation();
   const theme = useTheme();
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
   return (
     <Drawer variant="permanent" open={open}
       sx={{
-
         '&::-webkit-scrollbar-track': {
           backgroundColor: (theme) =>
             theme.palette.mode === 'dark' ? 'transparent' : 'transparent',
@@ -127,7 +126,9 @@ const DrawerApp = ({ open, handleDrawerClose }) => {
           theme.palette.mode === 'dark'
             ? '#35383d #1e1e1e'
             : '#ccc #f1f1f1',
-      }}
+      
+    display:!open ?{xs:'none', md:'block'} : null
+          }}
     >
       <DrawerHeader>
         <IconButton onClick={handleDrawerClose}>
@@ -209,7 +210,7 @@ const DrawerApp = ({ open, handleDrawerClose }) => {
           <ListItem key={item.path} disablePadding sx={{ display: 'block' }}>
             <ListItemButton
               onClick={() => {
-                navigate(item.path); 
+                navigate(item.path);
               }}
               sx={{
                 minHeight: 40,
