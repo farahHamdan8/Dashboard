@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack } from '@mui/material';
 import { SendOutlined } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
-import PointofSaleIcon from '@mui/icons-material/PointofSale';
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import TrafficIcon from '@mui/icons-material/Traffic';
 import Paper from '@mui/material/Paper';
